@@ -31,7 +31,7 @@ FRmodel = faceRecoModel(input_shape=(3, 96, 96))
 print("Total Params:", FRmodel.count_params())
 
 
-# GRADED FUNCTION: triplet_loss
+
 
 def triplet_loss(y_true, y_pred, alpha = 0.2):
     """
@@ -94,7 +94,7 @@ database["arnaud"] = img_to_encoding("images/arnaud.jpg", FRmodel)
 
 
 
-# GRADED FUNCTION: verify
+
 
 def verify(image_path, identity, database, model):
     """
@@ -139,7 +139,7 @@ verify("images/camera_0.jpg", "younes", database, FRmodel)
 verify("images/camera_2.jpg", "kian", database, FRmodel)
 
 
-# GRADED FUNCTION: who_is_it
+
 
 def who_is_it(image_path, database, model):
     """
