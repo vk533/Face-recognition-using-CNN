@@ -7,7 +7,7 @@ Face recognition problems commonly fall into two categories:
 ## Naive Face Verification
 In Face Verification, you're given two images and you have to determine if they are of the same person. The simplest way to do this is to compare the two images pixel-by-pixel. If the distance between the raw images are less than a chosen threshold, it may be the same person!
 
-![Images](ImagerFR/Picture1.png)
+![Images](ImagesFR/Picture1.png)
 
 - Of course, this algorithm performs really poorly, since the pixel values change dramatically due to variations in lighting, orientation of the person's face, even minor changes in head position, and so on.
 - We can see that rather than using the raw image, we can learn an encoding
